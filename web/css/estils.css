@@ -64,4 +64,31 @@
   section > h2 + p {
     text-indent: 20px;
   }
-  /* WRITE YOUR CODE BELOW HERE */
+
+  /* muestra en azul los links no visitados */
+a:link {
+  color: #00ADEF;
+  }
+  
+  /* muestra en gris los links visitados */
+  a:visited {
+  color:#999;
+  }
+  
+  /* muestra en rojo claro los links focalizados */
+  a:focus {
+  color: #006081;
+  text-decoration: none;
+  }
+  
+  /* muestra en rojo los links en hover */
+  a:hover {
+  color:#006081;
+  text-decoration: none;
+  }
+  
+  /* muestra en rojo claro los links activos */
+  a:active {
+  color:#006081;
+  text-decoration: none;
+  }
