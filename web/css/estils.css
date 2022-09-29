@@ -125,3 +125,15 @@ nav li:hover {
   background-color: #c0e4ef;
   box-shadow: none;
 }
+
+nav>ul>li>a:visited {
+  color: #00ADEF;
+}
+
+aside>ul>li>a:visited {
+  color: #00ADEF;
+}
+
+section>ol>li>a:visited {
+  color: #00ADEF;
+}
