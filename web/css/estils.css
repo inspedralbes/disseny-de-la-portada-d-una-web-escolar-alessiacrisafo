@@ -1,94 +1,103 @@
 /* General setup */
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0 auto;
-    min-width: 1000px;
-    max-width: 1400px;
-    font-size: 16px;
-    font-family: 'Courier New', monospace;
-    line-height: 1.5rem;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-  }
-  
-  /* Layout */
-  
-  section {
-    float: left;
-    width: 50%;
-  }
-  
-  aside {
-    float: left;
-    width: 30%;
-  }
-  
-  nav {
-    float: left;
-    width: 20%;
-  }
-  
-  footer {
-    clear: both;
-  }
-  
-  header, section, aside, nav, footer {
-    padding: 20px;
-  }
-  
-  /* header and footer */
-  
-  header, footer {
-    border-top: 5px solid #00ADEF;
-    border-bottom: 5px solid #00ADEF;
-    font-family: 'Trebuchet MS', sans-serif;
-  }
-  
-  h2 {
-    font-size: 26px;
-    font-family: 'Trebuchet MS', sans-serif;
-  }
+  box-sizing: border-box;
+}
 
-  header {
-    text-align: center;
-  }
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
 
-  header, h2{
-    letter-spacing: 2px;
-  }
+/* Layout */
 
-  section > h2 + p {
-    text-indent: 20px;
-  }
+section {
+  float: left;
+  width: 50%;
+}
 
-  /* muestra en azul los links no visitados */
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #00ADEF;
+  border-bottom: 5px solid #00ADEF;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header,
+h2 {
+  letter-spacing: 2px;
+}
+
+section>h2+p {
+  text-indent: 20px;
+}
+
+/* Estils dels links */
 a:link {
   color: #00ADEF;
-  }
-  
-  /* muestra en gris los links visitados */
-  a:visited {
-  color:#999;
-  }
-  
-  /* muestra en rojo claro los links focalizados */
-  a:focus {
+}
+
+/* muestra en gris los links visitados */
+a:visited {
+  color: #999;
+}
+
+a:focus {
   color: #006081;
   text-decoration: none;
-  }
-  
-  /* muestra en rojo los links en hover */
-  a:hover {
-  color:#006081;
+}
+
+a:hover {
+  color: #006081;
   text-decoration: none;
-  }
-  
-  /* muestra en rojo claro los links activos */
-  a:active {
-  color:#006081;
+}
+
+a:active {
+  color: #006081;
   text-decoration: none;
-  }
+}
+
+a.external {
+  background: url("https://img.icons8.com/pastel-glyph/344/external-link--v1.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
