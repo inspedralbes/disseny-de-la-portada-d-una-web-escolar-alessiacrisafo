@@ -76,10 +76,6 @@ a:link {
   color: #00ADEF;
 }
 
-a:visited {
-  color: #999;
-}
-
 a:focus {
   color: #006081;
   text-decoration: none;
@@ -99,6 +95,10 @@ a[href^="http"] {
   background: url("https://img.icons8.com/pastel-glyph/344/external-link--v1.png") no-repeat 100% 0;
   background-size: 16px 16px;
   padding-right: 19px;
+}
+
+a[href^="http"]:visited {
+  color: #999;
 }
 
 aside {
