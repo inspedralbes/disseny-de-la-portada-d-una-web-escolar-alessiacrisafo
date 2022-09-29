@@ -126,6 +126,6 @@ nav li:hover {
   box-shadow: none;
 }
 
-nav>ul>li>a:visited, aside>ul>li>a:visited, section>ol>li>a:visited {
+nav>ul>li>a:visited, aside>a:visited, section>ol>li>a:visited {
   color: #00ADEF;
 }
