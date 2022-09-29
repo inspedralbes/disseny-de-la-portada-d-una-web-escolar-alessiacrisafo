@@ -76,7 +76,6 @@ a:link {
   color: #00ADEF;
 }
 
-/* muestra en gris los links visitados */
 a:visited {
   color: #999;
 }
@@ -92,12 +91,32 @@ a:hover {
 }
 
 a:active {
-  color: #006081;
+  color: #FFB400;
   text-decoration: none;
 }
 
-a.external {
+a[href^="http"] {
   background: url("https://img.icons8.com/pastel-glyph/344/external-link--v1.png") no-repeat 100% 0;
   background-size: 16px 16px;
   padding-right: 19px;
+}
+
+aside {
+  line-height: 1.5rem;
+}
+
+nav>ul>li {
+  list-style:none ;
+  border: 1px solid #00ADEF;
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav>ul>li>a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
